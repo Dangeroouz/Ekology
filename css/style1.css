@@ -121,3 +121,177 @@ footer{
 	width: 600px;
 	margin-left: 50px;
 }
+.ontology_line{
+	position: relative;
+}
+.ball1{
+	position: absolute;
+left: 3.48%;
+right: 93.08%;
+top: 3.51%;
+bottom: 56.74%;
+width: 38.51px;
+height: 40px;
+background: #686666;
+border-radius: 100%;
+}
+.ball2{
+	position: absolute;
+left: 37.41%;
+right: 58.29%;
+top: 2.29%;
+bottom: 56.52%;
+
+background: #6D854E;
+width: 48.14px;
+height: 50px;
+border-radius: 100%;
+}
+.ball3{
+	position: absolute;
+left: 71.16%;
+right: 23.68%;
+top: .07%;
+bottom: 56.3%;
+width: 57.77px;
+height: 60px;
+background: #C0B912;
+border-radius: 100%;
+}
+.ontology_line1{
+	position: absolute;
+width: 988px;
+height: 5px;
+left: 58px;
+top: 22.5px;
+width: 988px;
+border: 5px solid #4B4B4B;
+background: #4B4B4B;
+transform: rotate(0.08deg);
+z-index: -213;
+}
+.ontologu_divs{
+	display: flex;
+	padding-top: 100px;
+	padding-left: 30px;
+}
+.ontology_div p{
+	color: #7B9962;
+	font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 57px;
+display: flex;
+align-items: center;
+}
+.ontology_div h3{
+	font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+margin-top: -50px;
+color: #4B4B4B;
+}
+.ontology_more{
+
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 31px;
+line-height: 37px;
+padding: 6px;
+padding-left: 15px;
+display: flex;
+align-items: center;
+background: rgba(255, 255, 255, 0.7);
+border: 6px solid #6D854E;
+box-sizing: border-box;
+width: 220.78px;
+border-radius: 50px;
+margin-left: 770px;
+color: black;
+text-decoration:none;}
+.famous1{
+	width: 264.76px;
+	margin-left: 25px;
+}
+.famous1 p{
+font-family: 'Noto Sans HK', sans-serif;
+font-size: 23px;
+line-height: 30px;
+display: flex;
+align-items: center;
+margin-top: -10px;
+width: 225px;
+}
+.famous1 h3{
+	font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 40px;
+display: flex;
+align-items: center;
+margin-top: 0px;
+}
+.famous{
+	display: flex;
+	margin-top: 150px;
+}
+.famous1 h3:nth-child(2){
+	width: 50px;
+}
+.famous2 h2{
+	color: #686666;
+	font-size: 54px;
+	font-family: Rubik;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: -8px;
+}
+.famous2 p{
+	font-size: 31px;
+	color: #686666;
+	font-family: Rubik;
+	text-align: right;
+	padding-right: 10px;
+}
+.main2 h2{
+	width: 1440px;
+	height: 92px;
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+text-align: center;
+color: #686666;
+}
+.green1{
+	color: #7B9962;
+}
+.yellow1{
+	color: #C0B912;
+
+}
+.main2 iframe{
+	margin-left: 92px;
+	border: 1px solid lightgray;
+}
+.main2 p{
+	width: 450px;
+	font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+text-align: center;
+margin-top: 0px;
+}
