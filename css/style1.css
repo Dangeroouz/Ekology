@@ -12,7 +12,7 @@ body{
 }
 .nav{
 	display: flex;
-	margin-left: 350px;
+	margin-left: 400px;
 	margin-top: -110px;
 }
 .nav a{
@@ -96,8 +96,8 @@ footer{
 	margin-left: 300px;
 }
 .slogan{
-	margin-left: 60px;
-	margin-right: 60px;
+	margin-left: 100px;
+	margin-right: 100px;
 }
 .slogan p{
 	font-size: 70px;
@@ -119,10 +119,12 @@ footer{
 	font-family: 'Rubik', sans-serif;
 	color: #595757;
 	width: 600px;
-	margin-left: 50px;
+	margin-left: 110px;
 }
 .ontology_line{
 	position: relative;
+	width: 1000px;
+	margin-left: 70px;
 }
 .ball1{
 	position: absolute;
@@ -160,12 +162,12 @@ border-radius: 100%;
 }
 .ontology_line1{
 	position: absolute;
-width: 988px;
-height: 5px;
+width: 918px !important;
+height: 7px;
 left: 58px;
-top: 22.5px;
+top: 27.5px;
 width: 988px;
-border: 5px solid #4B4B4B;
+
 background: #4B4B4B;
 transform: rotate(0.08deg);
 z-index: -213;
@@ -245,9 +247,13 @@ margin-top: 0px;
 .famous{
 	display: flex;
 	margin-top: 150px;
+	transform: scale(0.87);
 }
 .famous1 h3:nth-child(2){
 	width: 50px;
+}
+.famous2{
+	width: 255px;
 }
 .famous2 h2{
 	color: #686666;
@@ -260,7 +266,7 @@ margin-top: 0px;
 .famous2 p{
 	font-size: 31px;
 	color: #686666;
-	font-family: Rubik;
+	font-family: cursive;ubik;
 	text-align: right;
 	padding-right: 10px;
 }
@@ -283,15 +289,23 @@ color: #686666;
 }
 .main2 iframe{
 	margin-left: 92px;
-	border: 1px solid lightgray;
+	box-shadow: -1px 1px 8px 0px rgba(34, 60, 80, 0.2);
 }
 .main2 p{
-	width: 450px;
+	width: 400px;
 	font-family: Rubik;
 font-style: normal;
 font-weight: normal;
-font-size: 36px;
+font-size: 32px;
 line-height: 43px;
 text-align: center;
 margin-top: 0px;
+margin-left: 60px;
+}
+.main2{
+	transform: scale(0.8);
+	margin-left: 20px;
+}
+.aboutproject p{
+	font-family: 'Rubik', sans-serif;
 }
