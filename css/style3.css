@@ -1,10 +1,14 @@
 header{
-	background: url(../img/header.png);
+	background: url(../img/index3header.png);
 	width: 1440px;
 	height: 570px;
 }
 body{
 	margin: 0;
+}
+.container{
+	width: 1440px !important;
+	height: 570px !important;
 }
 .logo{
 	margin-left: 45px;
@@ -25,6 +29,14 @@ body{
 .nav a:nth-child(3){
 	color: #ffff66;
 }
+.test:hover{
+	background: #ffff66;
+	transition: 1s;
+}
+.nav a:hover{
+	text-decoration: underline;
+	transition: 1s;
+}
 .test{
 	border: solid #ffff66;
 	color: white;
@@ -33,7 +45,7 @@ body{
 	font-family: 'Rubik', sans-serif;
 	text-decoration: none;
 	padding: 20px;
-	margin-left: 1225px;
+	margin-left: 1125px;
 	margin-top: -70px;
 }
 header h2{
@@ -58,7 +70,7 @@ footer{
 .flex{
 	display: flex;
 }
-.flex > div p{
+.footer_ekology{
 	color: #339966;
 	font-family: 'Rubik', sans-serif;
 	font-size: 35px;
@@ -71,4 +83,86 @@ footer{
 }
 .footer_nav img{
 	margin-left: 30px;
+}
+main{
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+	width: 1150px;
+	margin-left: 140px;
+}
+.main_img1{
+	margin-left: 50px;
+	align-self: flex-start;
+}
+.main_block1{
+	display: flex;
+}
+.dashed1{
+	border-top: 10px dashed #4B4B4B;
+	width: 575px;
+	border-right: 10px dashed #4B4B4B;
+	height: 175px;
+	margin-top: 20px;
+}
+.main_block1_div h2{
+	font-family: 'Rubik', sans-serif;
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.main_block2{
+	display: flex;
+	margin-top: 60px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+	flex-direction: row-reverse;
+}
+.main_block2 .main_block1_div{
+	transform: rotate(0.5turn);
+	margin-left: -20px;
+}
+.main_block2 h2{
+	transform: rotate(0.5turn);
+}
+.main_p{
+	width: 540px;
+	height: 168px;
+	font-family: Rubik;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 83px;
+	margin-bottom: 43px;
+}
+.main_p_div{
+	display: flex;
+	justify-content: center;
+}
+.main_head h3{
+	font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 54px;
+line-height: 64px;
+align-items: center;
+text-align: center;
+width: 700px;
+margin-left: 50px;
+}
+.main_head{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 7.5vw;
+	margin-bottom: 100px;
+}
+.main_head p{
+	font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+align-items: center;
+text-align: center;
+width: 850px;
+}
+.padbott{
+	padding-bottom: 65px;
 }

@@ -6,6 +6,10 @@ header{
 body{
 	margin: 0;
 }
+.container{
+	width: 1440px !important;
+	height: 570px !important;
+}
 .logo{
 	margin-left: 45px;
 	margin-top: 30px;
@@ -14,6 +18,14 @@ body{
 	display: flex;
 	margin-left: 400px;
 	margin-top: -110px;
+}
+.test:hover{
+	background: #ffff66;
+	transition: 1s;
+}
+.nav a:hover{
+	text-decoration: underline;
+	transition: 1s;
 }
 .nav a{
 	color: white;
@@ -33,7 +45,7 @@ body{
 	font-family: 'Rubik', sans-serif;
 	text-decoration: none;
 	padding: 20px;
-	margin-left: 1225px;
+	margin-left: 1125px;
 	margin-top: -70px;
 }
 header h2{
@@ -58,14 +70,13 @@ footer{
 .flex{
 	display: flex;
 }
-.flex > div p{
+.footer_ekology{
 	color: #339966;
 	font-family: 'Rubik', sans-serif;
 	font-size: 35px;
 	color: #78a178;
 	margin-left: 8vw;
-} 
-.footer_nav{
+}.footer_nav{
 	margin-top: 10px;
 	margin-left: 240px;
 }
@@ -86,7 +97,7 @@ footer{
 	margin-left: 100px;
 }
 .aboutproject{
-	padding-top: 150px;
+	padding-top: 100px;
 	display: flex;
 }
 .aboutproject p{

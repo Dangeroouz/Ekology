@@ -8,8 +8,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body>
+	<div class="container">
 	<header>
 		<a href="index1.html"><img class="logo" src="img/plant_1.png"></a>
 		<div class="nav">
@@ -17,7 +19,7 @@
 			<a href="index2.html">Дослідження</a>
 			<a href="index3.html">Еко-акція</a>
 		</div>
-		<a class="test" href="#">ТЕСТ</a>
+		<a class="test" href="index4.html">Вирішення</a>
 		<h2>ЕКОЛОГІЯ</h2>
 		<h3>планети Земля</h3>
 	</header>
@@ -32,7 +34,7 @@
 				<p>Зберегти нашу</p>
 				<p>Планету</p>
 			</div>
-			<div class="ontology">
+			<div class="ontology wow fadeIn">
 				<p class="ontology_title">Онтологія відносин "людина-природа"</p>
 				<div class="ontology_line">
 					<div class="ball1"></div>
@@ -56,29 +58,30 @@
 					<a href="#" class="ontology_more">Детальніше</a>
 				</div>
 			</div>
+
 			<div class="famous">
-				<div class="famous1">
+				<div class="famous1 wow bounceInUp">
 					<img src="img/vernadskiy.png">
 					<h3>Володимир Вернадський</h3>
 					<p>Вернадський був першим хто почав досліджувати взаємозв'язок між рослинністю і ґрунтом довівши, що останній є продуктом життєдіяльності рослин. В його праці розкривається вплив речовини та її вплив на біогеохімічні процеси, перетворення енергії і на еволюцію планети, відобразила глобальні закони екології. </p>
 				</div>
-				<div class="famous1">
+				<div class="famous1 wow bounceInUp">
 					<img src="img/tesla.png">
 					<h3>Нікола Тесла</h3>
 					<p>Нікола Тесла - провісник, ідеолог, пропагандист, натхненник широкого запровадження відновлюваних джерел енергії та сучасного енергетичного перходу Ще за життя Нікола Тесла  увійшов в історію як автор величезної кількості винаходів: змінного струму, першого пристрою дистанційного керування... </p>
 				</div>
-				<div class="famous1">
+				<div class="famous1 wow bounceInUp">
 					<img src="img/elon.png">
 					<h3>Ілон Маск</h3>
 					<p>Ілон Маск пообіцяв $100 мільйонів за кращу технологію уловлювання вуглекислого газу Технологія полягає у відділенні CO2 від джерела емісії, довгостроковій ізоляції та, можливо, перероблюванні вуглекислого газу. Сучасні ж технології уловлювання вуглецю залишаються малоефективними або економічно невигідними. </p>
 				</div>
-				<div class="famous2">
+				<div class="famous2 wow bounceInUp">
 					<h2>ВІДОМІ ЛЮДИ</h2>
 					<P>Боротьба з екологічними проблемами</P>
 				</div>
 			</div>
 		</div>
-		<div class="main2">
+		<div class="main2 wow fadeIn">
 			<h2>Чому  <span class="green1">це</span>  <span class="yellow1">так?</span></h2>
 			<div class="flex">
 				<iframe width="719" height="400" src="https://www.youtube.com/embed/8l8uLm2XJrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -88,7 +91,7 @@
 	</main>
 	<footer>
 		<div class="flex">
-			<div><p>ЕКОЛОГІЯ планети Земля</p></div>
+			<div><p class="footer_ekology">ЕКОЛОГІЯ планети Земля</p></div>
 			<div class="footer_nav">
 				<img src="img/Telegram_black.png">
 				<img src="img/Twitter_black.png">
@@ -97,5 +100,10 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+          </div>
 </body>
 </html>

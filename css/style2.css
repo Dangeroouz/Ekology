@@ -10,6 +10,10 @@ body{
 	margin-left: 45px;
 	margin-top: 30px;
 }
+.container{
+	width: 1440px !important;
+	height: 570px !important;
+}
 .nav{
 	display: flex;
 	margin-left: 400px;
@@ -25,6 +29,10 @@ body{
 .nav a:nth-child(2){
 	color: #ffff66;
 }
+.nav a:hover{
+	text-decoration: underline;
+	transition: 1s;
+}
 .relative{
 	position: relative;
 }
@@ -36,7 +44,7 @@ body{
 	font-family: 'Rubik', sans-serif;
 	text-decoration: none;
 	padding: 20px;
-	margin-left: 1225px;
+	margin-left: 1125px;
 	margin-top: -70px;
 }
 header h2{
@@ -66,15 +74,22 @@ footer{
 }
 .yellow1{
 	color: #C0B912;
-
 }
-.flex > div p{
+.test:hover{
+	background: #ffff66;
+	transition: 1s;
+}
+.problem2{
+	margin-bottom: 100px;
+}
+.footer_ekology{
 	color: #339966;
 	font-family: 'Rubik', sans-serif;
 	font-size: 35px;
 	color: #78a178;
 	margin-left: 8vw;
-} 
+}
+
 .footer_nav{
 	margin-top: 10px;
 	margin-left: 240px;
@@ -93,7 +108,7 @@ main{
 	font-size: 56px;
 	text-align: center;
 	font-family: 'Rubik', sans-serif;
-	padding-top: 150px;
+	padding-top: 100px;
 }
 .ecoproblems p{
 	font-size: 22px;
@@ -117,6 +132,9 @@ main{
 	font-family: 'Rubik', sans-serif;
 	font-size: 25px;
 	width: 700px;
+}
+.problem1:nth-child(3){
+	margin-bottom: 100px;
 }
 .problem1:nth-child(2){
 	margin-left: 50px;
